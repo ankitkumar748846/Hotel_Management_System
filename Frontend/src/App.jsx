@@ -6,6 +6,7 @@ import NotFound from "./Pages/NotFound";
 import Signup from "./Pages/Signup";
 import Login from "./Pages/Login";
 import Contact from "./Pages/Contact";
+import Denied from "./Pages/Denied";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Login />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/denied" element={<Denied />} />
         <Route path="/*" element={<NotFound />} />
       </Routes>
     </>
